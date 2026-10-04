@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="tf1" layoutX="217.0" layoutY="111.0" />
+      <Label fx:id="v1" layoutX="203.0" layoutY="152.0" text="mm" />
+      <Label fx:id="v2" layoutX="203.0" layoutY="183.0" text="cm" />
+      <Label fx:id="v3" layoutX="203.0" layoutY="219.0" text="m" />
+      <Label fx:id="v4" layoutX="203.0" layoutY="251.0" text="km" />
+   </children>
+</Pane>

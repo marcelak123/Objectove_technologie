@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.geometricshape.HelloController">
+
+    <top>
+        <HBox spacing="8">
+            <Button fx:id="btnRectangle"
+                    text="Pridaj obdĺžnik"/>
+            <Button fx:id="btnCircle"
+                    text="Pridaj kruh"/>
+            <Button fx:id="btnSquare"
+                    text="Pridaj štvorec"/>
+            <Button fx:id="btnBlue"
+                    text="Kruhy na modro"/>
+            <Button fx:id="btnDown"
+                    text="Všetky nadol"/>
+        </HBox>
+    </top>
+
+    <center>
+        <Pane fx:id="plocha"
+              prefWidth="800"
+              prefHeight="500"/>
+    </center>
+
+</BorderPane>

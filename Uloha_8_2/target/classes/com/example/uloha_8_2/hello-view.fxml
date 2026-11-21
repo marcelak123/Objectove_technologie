@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            prefWidth="850" prefHeight="470">
+    <center>
+        <HBox spacing="12" style="-fx-padding: 12;">
+            <TableView fx:id="movieTable" HBox.hgrow="ALWAYS" prefWidth="550">
+                <columns>
+                    <TableColumn fx:id="movieId" text="ID" prefWidth="50"/>
+                    <TableColumn fx:id="movieTitle" text="Film" prefWidth="240"/>
+                    <TableColumn fx:id="movieLength" text="Dĺžka (min)" prefWidth="110"/>
+                    <TableColumn fx:id="movieYear" text="Rok"/>
+                </columns>
+            </TableView>
+            <TableView fx:id="genreTable" HBox.hgrow="ALWAYS" prefWidth="270">
+                <columns>
+                    <TableColumn fx:id="genreId" text="ID" prefWidth="60"/>
+                    <TableColumn fx:id="genreName" text="Žáner" prefWidth="190"/>
+                </columns>
+            </TableView>
+        </HBox>
+    </center>
+    <bottom>
+        <VBox style="-fx-padding: 14; -fx-background-color: #eeeeee;">
+            <Label fx:id="infoLabel" text="Vyber film zo zoznamu."
+                   style="-fx-font-size: 17px; -fx-font-weight: bold;"/>
+        </VBox>
+    </bottom>
+</BorderPane>
